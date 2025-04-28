@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        /* 主题样式 */
+        body {
+            background-color: #f0f0f0;
+            color: #333;
+            position: relative;
+            min-height: 100vh;
+            margin: 0;
+        }
+        /* 导航栏样式 */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        nav ul li {
+            display: block;
+            margin: 10px 0;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff; /* 文字颜色改为白色 */
+            background-color: #e1801f; /* 背景颜色改为红色 */
+            border: 1px solid #e11f1f;
+            padding: 10px;
+            display: block;
+            width: 150px;
+            transition: background-color 0.3s, color 0.3s; /* 添加过渡效果 */
+        }
+        nav ul li a:hover {
+            background-color: rgb(255, 192, 192); /* 鼠标悬停时背景颜色变深 */
+            color: #ffffff; /* 鼠标悬停时文字颜色保持白色 */
+        }
+        /* 欢迎信息样式 */
+        .welcome-message {
+            text-align: center;
+            margin-top: 20px;
+        }
+        /* 页脚样式 */
+        footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px 0; /* 添加上下内边距 */
+            background-color: grey; /* 设置背景颜色 */
+            color: #ffffff; /* 设置文字颜色 */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="https://feng-wenke.github.io/profile">Profile</a></li>
+                <li><a href="https://feng-wenke.github.io/settings">Settings</a></li>
+                <li><a href="https://feng-wenke.github.io/musics">Music</a></li>
+                <li><a href="https://feng-wenke.github.io/video">Video</a></li>
+                <li><a href="https://feng-wenke.github.io/photo">Photo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="welcome-message">
+        <h1>Welcome, User!</h1>
+        <p>Here is your personalized home page.</p>
+    </div>
+    <section class="content">
+        <!-- Your content goes here -->
+        <h2>Recent Activities</h2>
+        <!-- Add your recent activities or other content here -->
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Your Website</p>
+    </footer>
+</body>
+
+</html>
